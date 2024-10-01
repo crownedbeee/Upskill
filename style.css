@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(37, 64%, 94%);
+    color: #282319;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #413203;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation menu styling */
+nav ul {
+    background-color: #5f4306;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #846a0c;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Image styling */
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    padding: 15px;
+    background-color: #815508;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ad7d04;
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #282319;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Aside styling */
+aside {
+    background-color: #f7f5f1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 5px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside ul li a:hover {
+    color: #715f03;
+}
+
